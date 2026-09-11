@@ -3,6 +3,7 @@ const POPUP_TEXTS = [
   "아이 시발",
   "손들어 임마",
   "이 negative",
+  "내 연금의 적",
 ]; // 문구를 늘리려면 이 배열에 문자열만 추가하세요.
 
 const IDLE_IMAGE = "/assets/idle.png";
