@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>모근 채굴단</title><link rel="stylesheet" href="/style.css"></head>
+<body><main class="app">
+<header><div><p class="eyebrow">HAIR MINING CLICKER</p><h1>모근 채굴단</h1></div><button id="rankingBtn" class="ghost">랭킹</button></header>
+<section class="stats"><div><span>채굴한 머리카락</span><strong id="score">0</strong></div><div><span>클릭당</span><strong id="power">+1</strong></div></section>
+<section id="mineArea" class="mine-area" aria-label="채굴 영역"><button id="mineBtn" class="mine-btn" aria-label="머리카락 채굴"><img id="targetImage" src="/assets/idle.svg" alt="채굴 대상" draggable="false"></button><div id="floatLayer" class="float-layer"></div></section>
+<section class="controls"><input id="nickname" maxlength="16" placeholder="닉네임 (2~16자)"><button id="saveBtn">점수 저장</button></section>
+<p id="status" class="status" aria-live="polite"></p>
+</main>
+<dialog id="rankingDialog"><div class="modal-head"><h2>TOP 20 랭킹</h2><button id="closeRanking" class="ghost">닫기</button></div><ol id="rankingList"></ol></dialog>
+<script type="module" src="/game.js"></script></body></html>
