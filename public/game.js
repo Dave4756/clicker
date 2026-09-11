@@ -7,6 +7,10 @@ const POPUP_TEXTS = [
 
 const IDLE_IMAGE = "/assets/idle.png";
 const CLICK_IMAGE = "/assets/click.png";
+
+// 클릭 이미지 미리 로드 (Preload)
+const clickImgPreload = new Image();
+clickImgPreload.src = CLICK_IMAGE;
 const scoreEl = document.querySelector("#score");
 const powerEl = document.querySelector("#power");
 const mineBtn = document.querySelector("#mineBtn");
